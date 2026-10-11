@@ -106,7 +106,14 @@ The frontend also provides `dev`, `build`, and `serve` scripts through its works
 
 ## Screenshots
 
-Screenshots of the Graphix interface and its visualisation features will be added here.
+### 2D Graph Visualisation
+![Graphix 2D Graph Visualisation](./graphix%202d.png)
+
+### 3D Graph Visualisation
+![Graphix 3D Graph Visualisation](./graphix%203d.png)
+
+### Equation Solving
+![Graphix Equation Solving](./graphix%20solve.png)
 
 ## Future Improvements
 
