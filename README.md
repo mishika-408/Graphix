@@ -129,3 +129,9 @@ Potential areas for future development include:
 Graphix explores how technology can make abstract mathematics more accessible through visual learning. It brings together mathematical problem-solving, interactive visualisation, and software development in an effort to make equations easier to explore and understand. All in all, it helps the ordinary man understand complex mathematical terms through graphical representation (or graphics), and tries to lessen the fear and stigma associated with maths as a subject.
 
 *Built with curiosity and a love for mathematics.*
+
+### 🌐 Live Demo
+
+**[Try Graphix here!](https://graph-equation-solver-1--mishika8403.replit.app)**
+
+Explore mathematical equations through interactive 2D and 3D visualisations and equation solving.
