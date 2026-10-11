@@ -1,0 +1,27 @@
+kind = "web"
+previewPath = "/"
+title = "Graphix – Equation Grapher & Solver"
+version = "1.0.0"
+id = "artifacts/graphix"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 25988
+
+[services.development]
+run = "pnpm --filter @workspace/graphix run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/graphix", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/graphix/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "25988"
+BASE_PATH = "/"
